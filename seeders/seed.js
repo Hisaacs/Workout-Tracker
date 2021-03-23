@@ -1,7 +1,8 @@
 
 let db = require("../models");
+const {connect} = require('./../database/connect');
 
-
+connect();
 
 let workoutSeed = [
   {

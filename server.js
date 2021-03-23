@@ -1,9 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
+const {connect} = require('./database/connect');
 require('dotenv').config()
 const PORT = process.env.PORT || 3000;
 
+connect();
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
@@ -21,12 +23,7 @@ app.use(require("./routes/htmlRoutes"));
 // api routes
 app.use(require("./routes/apiRoutes.js"));
 
-mongoose.connect(process.env.MONGODB_DSN, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-});
+
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
