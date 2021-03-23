@@ -56,15 +56,10 @@ To install necessary dependencies, run the following command:
 npm install
 ```
 
-## [Deployed Link](https://fitness-tracker-bc.herokuapp.com)
+## [Deployed Link](https://workout-tracker-hd.herokuapp.com)
 
 ## Preview
 
----
-
-<img src="./public/images/home.png">
-<img src="./public/images/dashboard.png">
----
 
 ## Questions
 
