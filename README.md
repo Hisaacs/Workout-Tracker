@@ -1,5 +1,9 @@
 # Workout-Tracker
 
+## [Deployed Link](https://workout-tracker-hd.herokuapp.com)
+
+## Preview
+
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
@@ -30,37 +34,32 @@
 
 ## User Story
 
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+As a user, I want to view create and track daily workouts. I want to log multiple exercises of a workout on a given day. Also I should be able to track the name, type, weight, sets, reps, and duration of exercise. If it's a cardio exercise, I should be able to track my distance traveled.
 
 ## Business Context
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+A consumer should reach their fitness goals quicker when they track their workout progress.
 
 ## Acceptance Criteria
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+When the page loads, the user has the option to create a new workout or continue with a pre-existing workout.
 
-The user should be able to:
+The user is able to:
 
 - Add exercises to a previous workout plan.
 
 - Add new exercises to a new workout plan.
 
-- View the combined weight of multiple exercises on the `stats` page.
+- On the `stats` page. A user can view their combined weight of multiple exercises 
 
 ## Installation
 
-To install necessary dependencies, run the following command:
+Run the following command to install necessary dependencies:
 
 ```
 npm install
 ```
 
-## [Deployed Link](https://workout-tracker-hd.herokuapp.com)
-
-## Preview
-
-
 ## Questions
 
-If you have any questions about the repo, open issue or contact me directly at [hamisaacs@gmail.com](hamisaacs@gmail.com). You can find more of my work at [Hisaacs](https://github.com/Hisaacs).
+If you have any questions about this repo, or issues contact me directly at [hamisaacs@gmail.com](hamisaacs@gmail.com). You can find more of my work at [Hisaacs](https://github.com/Hisaacs).
