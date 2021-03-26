@@ -2,6 +2,8 @@
 
 ## [Deployed Link](https://workout-tracker-hd.herokuapp.com)
 
+## [GitHub Link](https://github.com/Hisaacs/Workout-Tracker)
+
 ## Preview
 
 ## Table of Contents
