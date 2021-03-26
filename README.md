@@ -10,7 +10,9 @@
 
 ## Table of Contents
 
-- [Technologies Used](#technologies-used)
+- [Deployed Link](#deployed-link)
+
+- [Preview](#preview)
 
 - [User Story](#user-story)
 
@@ -18,27 +20,18 @@
 
 - [Acceptance Criteria](#acceptance-criteria)
 
+- [Technologies Used](#technologies-used)
+
 - [Installation](#installation)
-
-- [Deployed Link](#deployed-link)
-
-- [Preview](#preview)
 
 - [Questions](#questions)
 
-## Technologies Used
-
-**Language:** Node.js, HTML, CSS
-
-**Dependencies:** Express, Mongoose, Morgan
-
-**Version Control:** GitHub
-
-**Cloud Platform:** Heroku, MongoDB Atlas
 
 ## User Story
 
-As a user, I want to view create and track daily workouts. I want to log multiple exercises of a workout on a given day. Also I should be able to track the name, type, weight, sets, reps, and duration of exercise. If it's a cardio exercise, I should be able to track my distance traveled.
+As a user, I want to view plus create and track daily workouts. I also want to log multiple exercises of a workout on a given day. I should also be able to track the exercise name, type, weight, sets, reps, and the duration of exercise. 
+
+Example: If it's a cardio exercise, I should be able to track my distance travelled.
 
 ## Business Context
 
@@ -55,6 +48,17 @@ The user is able to:
 - Add new exercises to a new workout plan.
 
 - On the `stats` page. A user can view their combined weight of multiple exercises 
+
+## Technologies Used
+
+**Language:** Node.js, HTML, CSS
+
+**Dependencies:** Express, Mongoose, Morgan
+
+**Version Control:** GitHub
+
+**Cloud Platform:** Heroku, MongoDB Atlas
+
 
 ## Installation
 
